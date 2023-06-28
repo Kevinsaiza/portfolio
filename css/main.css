@@ -1101,6 +1101,7 @@ header .top-bar {
 	position: absolute;
 	left: 90px;
 	top: 0;
+	border-radius: 0px 0px 25px 0px;
 }
 header .logo {
 	float: left;
