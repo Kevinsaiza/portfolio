@@ -30,6 +30,26 @@
 	================================================== -->
 	<link rel="icon" type="image/png" href="favicon.png">
 
+<style>
+
+.fadein {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+</style>
+
+
 </head>
 
 <body id="top">
@@ -71,7 +91,7 @@
    		<div class="row">
 
    			<div class="col-twelve">
-
+<div class="fadein">
 	   			<h5>Hello, World.</h5>
 	   	
   <h1>I'm Kevin Francis Saiza.</h1>
@@ -83,7 +103,9 @@
 	   			</p>
 
 	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
-				<a class="button stroke" href="/mylife.html" title="">My Life Story</a>
+				<a class="button stroke" href="mylife.html" title="">My Life Story</a>
+
+</div>
 
 	   		</div>  
    			
@@ -587,4 +609,5 @@
 
 </body>
 
-</html>
+		     </html>
+	
