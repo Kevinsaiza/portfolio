@@ -24,8 +24,8 @@
    <!-- script
    ================================================== -->   
 
-		<script src="js/pace.min.js"></script>
-			<script src="js/modernizr.js"></script>
+
+
 
    <!-- favicons
 	================================================== -->
@@ -33,6 +33,10 @@
 
 <style>
 
+    button:hover {
+        box-shadow: inset 5px 5px 10px rgba(0,0,0,0.2),inset -5px -5px 10px rgba(255,255,255,0.3);
+    }
+    
 .fadein {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
@@ -61,8 +65,7 @@
    	<div class="row">
 
    		<div class="top-bar">
-   			<a class="menu-toggle" href="#"><span>Menu</span></a>
-
+   			
 	   		<div class="logo">
 		         <a href="index.html">Kevin Saiza</a>
 		      </div>		      
@@ -93,7 +96,7 @@
 
    			<div class="col-twelve">
 <div class="fadein">
-	   			<h5><fot style="color: #fff;">Hello, World.</font></h5>
+	   			<h5><font style="color: #fff;">Hello, World.</font></h5>
 	   	
   <h1>I'm Kevin Francis Saiza.</h1>
 		
@@ -103,7 +106,7 @@
 	   				<span>UI Designer</span> 
 	   			</p>
 			
-	<a class="button stroke smoothscroll" href="#about" title="" style="box-shadow: 5px 5px 10px rgba(0,0,0,0.2), 
+	<a class="button stroke" href="#about" title="" style="box-shadow: 5px 5px 10px rgba(0,0,0,0.2), 
 	         -5px -5px 10px rgba(255,255,255,0.2);width: 20rem;">Resume</a>		
 		
 			<a class="button stroke" href="portfolio.html" title="" style="box-shadow: 5px 5px 10px rgba(0,0,0,0.2), 
@@ -168,21 +171,19 @@
    		</div>   		
    	</div> <!-- /section-intro -->
 
-   	<div class="row about-content" style="background: none;
-    backdrop-filter: blur(16px) saturate(180%);
-    -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(255, 255, 255, 0.75);
+   	<div class="row about-content" style="
+    background-color: rgba(255, 255, 255, 0.9);
     
     border: 1px solid rgba(209, 213, 219, 0.3);
     box-shadow: 0px 0px 50px rgba(0,0,0,0.2);
-    padding: 20px;">
+    padding: 4rem;">
 
    		<div class="col-six tab-full">
 
    			<h3>Profile</h3>
    			<p>Hi there, this is kevin and im doing this project as part of my future career plans.</p>
 
-<img src="images/profile-pic.jpg" alt="Profile Picture" style="width: 160px; object-fit: contain; padding: 10px;box-shadow: 0px 0px 50px rgba(0,0,0,0.2);border-radius: 10px;">
+<img src="images/profile-pic.jpg" alt="Profile Picture" style="width: 160px; object-fit: contain;box-shadow: 5px 5px 50px rgba(0,0,0,0.2);border-radius: 10px;margin-bottom: 10px;">
 
 
    			<ul class="info-list">
@@ -239,13 +240,13 @@
    			<a href="certificates.html" title="Hire Me" class="button" style="
    			box-shadow: 5px 5px 10px rgba(0,0,0,0.2), -5px -5px 10px rgba(255,255,255,0.3); 
    			background-color: rgba(255,255,255,0.4);
-   			border-radius: 50px;
+   			border-radius: 50px;width: 20rem;
    			
    			">Certificates</a>
-   			<a href="https://drive.google.com/file/d/1ThSS2iH_r78mmpJxYSitk46IZvvKBGsR/view?usp=drivesdk" title="Download CV" class="button button-primary" style="
+   			<a href="https://drive.google.com/file/d/1ThSS2iH_r78mmpJxYSitk46IZvvKBGsR/view?usp=drivesdk" title="Download CV" class="button" style="
    			box-shadow: 5px 5px 10px rgba(0,0,0,0.2), -5px -5px 10px rgba(255,255,255,0.3); 
    			background-color: rgba(50,50,200,0.4);
-   			border-radius: 50px;
+   			border-radius: 50px;width: 20rem;color: white;
    			
    			"
    			>Download CV</a>
@@ -426,12 +427,6 @@
    	</div> <!-- /contact-info -->
 		
 	</section> <!-- /contact -->
-	<figure>
-  
-    <audio src="music/bg.mp3" type="audio/mpeg" autoplay>
-       
-    </audio>
-</figure>
 
    <!-- footer
    ================================================== -->
