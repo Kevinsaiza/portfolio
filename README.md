@@ -1,5 +1,5 @@
-# portfolio
-a basic portfolio for my career
+# Portfolio
+A personal website constituting my my info, resume & portfolio.
 
 
 Visit : 
