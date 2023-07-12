@@ -1,10 +1,10 @@
-# Portfolio
-A personal website constituting my my info, resume & portfolio.
+# My Personal Website
+A personal website constituting my blog, contact details,resume & portfolio.
 
 
 Visit : 
 <p style="font-size: 20px;"><b>
   
-<a href="https://kevinsaiza.github.io/portfolio/">kevinsaiza.github.io</a>
+<a href="http://kevins.wip.la">kevins.wip.la</a>
   
   </b></p>
