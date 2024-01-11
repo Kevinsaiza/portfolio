@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+  
+  
+  <div class="header">Web Dev Practice</div>
+  
+ 
+  
+  
+ 
+ <div class="topmenu">
+  <a href="myjobtracker.html"> <div class="topbtn">myJob Tracker</div></a>
+   <div class="topbtn">Javascript Test</div>
+ </div>
+
+<br/>
+
+  <div class="content" style="clear: both;">
+  
+  <span class="numbox">1</span>&nbsp;Change html on click.
+  
+  
+  <div class="code">document.getElementById('id').innerHTML = ' '</div>
+  
+  <p id="p1" style="text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-direction: alternate;">Click a button to change me</p>
+ <button id="a1" onclick="document.getElementById('p1').innerHTML = 'You have clicked on Button 1'">Button 1</button>
+ <button id="a1" onclick="document.getElementById('p1').innerHTML = 'You have clicked on Button 2'">Button 2</button>
+
+</div>
+<br/>
+  <div class="content">
+  
+<span class="numbox">2</span>
+&nbsp; Date Function
+
+  <div class="code">var dt = Date();
+  
+ document.write(dt);</div>
+
+<script>
+  
+  var dt = Date('dd.mm.yyyy');
+  
+ document.write(dt);
+  </script>
+
+
+</div>
+
+
+<footer>
+<div class="footer">&copy; 2024 Kevin Saiza</div>
+</footer>
+  <!-- Project -->
+  
+</body>
+</html>
+

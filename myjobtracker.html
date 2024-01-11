@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Web Dev Practice</title>
+  <script>
+    
+    
+    function logincheck() {
+     
+     var username = "kevinsaiza";
+    var password = "12345";
+    var usr = 
+    document.getElementById("ussr").value;
+    
+
+var pwd = 
+    document.getElementById("pwwd").value;
+
+     
+      if((usr==username)&&(pwd==password))
+      {
+        window.alert("Success");
+        
+        
+      }
+      else{
+        window.alert("Try Again");
+        
+        document.getElementById("ussr").value="";
+        document.getElementById("pwwd").value="";
+      }
+    }
+    
+    
+    function viewpwd()
+    {
+      var tp = document.getElementById("pwwd").type;
+      
+ 
+      
+      document.getElementById("pwwd").type="text";
+      
+      document.getElementById('spd').innerHTML="";
+    }
+    
+   
+  </script>
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+  
+  
+  <div class="header">My Job Tracker (v1.0)</div>
+  
+ 
+  
+   <div class="topmenu">
+  <a href="index.html"> <div class="topbtn">Back
+ </div>
+</div></a>
+
+
+<br/>
+  
+  </div>
+  
+
+  <div class="content" style="clear:both;">
+  
+  <span class="numbox">New</span>&nbsp;
+  
+  Login to portal
+  <br/>
+  <p id="tem">x</p>
+  
+  <input type="text" placeholder="username" id="ussr">
+    <input type="password" style="margin-bottom: 1rem;" placeholder="password" id="pwwd">
+  
+ 
+ <p onclick="viewpwd()" id="spd">Show password</p>
+ <br/>
+ 
+ <button id="a1" onclick="logincheck()">Login</button>
+ &nbsp;
+ <span class="code" style="">Create Account</span>
+
+</div>
+
+
+<footer>
+<div class="footer">&copy; 2024 Kevin Saiza</div>
+</footer>
+  <!-- Project -->
+  
+</body>
+</html>
